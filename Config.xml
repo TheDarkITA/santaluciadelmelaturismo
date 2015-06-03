@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "it.thedarkita.santaluciadelmelaturismo"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Santa Lucia del Mela Turismo</name>
+
+    <description>
+        Portale del turismo di Santa Lucia del Mela
+    </description>
+
+    <author href="http://www.thedarkita.it" email="thedarkita@thedarkita.it">
+        TheDarkITA
+    </author>
+
+</widget>

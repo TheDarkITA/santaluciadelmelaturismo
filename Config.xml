@@ -18,6 +18,10 @@
   <preference name="android-minSdkVersion" value="7"/>
   <preference name="android-installLocation" value="auto"/>
   <preference name="permissions" value="none"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<gap:plugin name="org.apache.cordova.inappbrowser"  />
+<gap:plugin name="org.apache.cordova.network-information"  />
+<gap:plugin name="org.apache.cordova.splashscreen"  />
   <feature name="http://api.phonegap.com/1.0/network"/>
   <icon src="icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>

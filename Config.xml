@@ -3,7 +3,6 @@
   <description>Portale del turismo di Santa Lucia del Mela</description>
   <author href="http://www.thedarkita.it" email="thedarkita@thedarkita.it">TheDarkITA</author>
   <content src="index.html"/>
-  <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
   <preference name="fullscreen" value="true"/>
@@ -19,8 +18,7 @@
   <preference name="android-minSdkVersion" value="7"/>
   <preference name="android-installLocation" value="auto"/>
   <preference name="permissions" value="none"/>
-  <gap:plugin name="org.apache.cordova.inappbrowser"/>
-  <gap:plugin name="org.apache.cordova.network-information"/>
+  <feature name="http://api.phonegap.com/1.0/network"/>
   <icon src="icon.png"/>
   <icon src="www/res/icon/android/icon-36-ldpi.png" gap:platform="android" gap:qualifier="ldpi"/>
   <icon src="www/res/icon/android/icon-48-mdpi.png" gap:platform="android" gap:qualifier="mdpi"/>
